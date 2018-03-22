@@ -21,3 +21,5 @@ function init() {
   }
   document.body.addEventListener("keydown", konamiCode)
 }
+
+init()
