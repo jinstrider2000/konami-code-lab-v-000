@@ -12,6 +12,7 @@ function init() {
       if (index === code.length)
       {
         alert("You get 30 Lives!");
+        index = 0;
       }
     }
     else
