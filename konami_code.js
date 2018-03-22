@@ -6,7 +6,7 @@ function init() {
   function konamiCode(e)
   {
     lastKey = e.which;
-    if (lastKey == code[index] )
+    if (lastKey == code[index])
     {
       index++;
       if (index === code.length)
@@ -20,7 +20,7 @@ function init() {
       index = 0;
     }
   }
-  document.body.addEventListener("keydown", konamiCode)
+  document.body.addEventListener("keydown", konamiCode);
 }
 
-init()
+init();
