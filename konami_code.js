@@ -5,7 +5,7 @@ function init() {
   var index = 0, lastKey;
   function konamiCode(e)
   {
-    lastKey = parseInt(e.which);
+    lastKey = parseInt(e.detail || e.which);
     if (lastKey == code[index])
     {
       index++;
