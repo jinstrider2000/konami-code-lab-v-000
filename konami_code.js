@@ -11,7 +11,7 @@ function init() {
       index++;
       if (index === code.length)
       {
-        alert("You get 30 Lives!");
+        window.alert("You get 30 Lives!");
         index = 0;
       }
     }
